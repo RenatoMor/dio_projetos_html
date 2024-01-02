@@ -50,7 +50,11 @@
 
 ## Descrição :footprints:
 
-O site da  TechnoCardio Care é um projeto em HTML focado em fornecer uma plataforma online dedicada a informações sobre cuidados com a saúde cardiovascular.
+Os projetos PaginaWeb e site TechnoCardio Care são projetos em HTML, fazem parte da Formação HTML Web Developer da plataforma DIO - Digital Innovation One. 
+
+Esta formação tem com objetivo ensinar os conceitos fundamentais do HTML (Hypertext Markup Language), a linguagem padrão para a criação de páginas web.
+
+Os projetos foram desenvolvidos utilizando o editor de código Visual Studio Code, e o navegador Google Chrome para visualização e testes.
 
 ## Projeto 1 - :footprints:
 
@@ -71,7 +75,7 @@ Bem-vindo à página inicial da TechnoCardio Care, uma clínica especializada em
     - Links 
   
 
-Confira o resultado final do projeto: [Projeto_PaginaWeb](https://renatomor.github.io/Projeto_PaginaWeb/)
+Confira o resultado final do projeto: [Projeto_PaginaWeb](https://github.com/RenatoMor/dio_projetos_html.git)
    
 
 
@@ -98,7 +102,7 @@ Bem-vindo ao "Projeto TechnoCardio Care", um exercício prático projetado para 
   - Content
   - Footer
 
-Confira o resultado final do projeto: [Projeto TechnoCardio Care](https://renatomor.github.io/Projeto_TechnoCardio_Care/) 
+Confira o resultado final do projeto: [Projeto TechnoCardio Care](https://github.com/RenatoMor/dio_projetos_html.git) 
 
 
 ## Licença :traffic_light:
