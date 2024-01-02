@@ -1,0 +1,529 @@
+html, body {
+    margin: 0;
+}
+
+/*! Body---------------------------------------------------------------------*/
+
+
+body {
+    background-color: #F2E7AC;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #0D0D0D;
+    line-height: 1.5;
+}
+
+/*! Wrapper------------------------------------------------------------------*/
+
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: #F2E7AC;
+    
+}
+
+/*! Main---------------------------------------------------------------------*/
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+/*$ Header------------------------------------------------------------------- */
+
+.header {
+    background-color: #F2E7AC;
+    min-height: 100px;
+    border-radius: 0px 10px 10px 0px;
+    margin-top: 5px;
+    box-shadow: #403B38 3px 3px 6px 0px inset, rgba(140, 123, 90, 0.5) -3px -3px 6px 1px inset;
+}
+
+.header img {
+  min-height: 80px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  margin-left: 8px;
+
+}
+
+/*$ Content------------------------------------------------------------------ */
+
+.content {
+    background-color: #F2E7AC;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte do texto do link */
+    min-height: 350px;
+    padding: 20px;
+    margin-bottom: 3px;
+    margin-top: 5px;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: #403B38 3px 3px 6px 0px inset, rgba(140, 123, 90, 0.5) -3px -3px 6px 1px inset;
+}
+
+.grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    
+}
+
+.grid div {
+    background-color: #F2E7AC;
+
+}
+
+.customTable {
+  width: 100%;
+  border-color: #403B38;
+  border-width: 3px;
+  border-style: ridge;
+
+}
+
+table.customTable td, table.customTable th {
+  border-width: 1px;
+  border-color: #403B38;
+  border-style: ridge;
+  padding: 5px;
+}
+
+table.customTable thead { 
+  background-color: #403B38;
+  color: #F2E7AC;
+}
+
+tr:nth-child(even) {
+  background-color: #dbc892;
+}
+
+td:hover {
+  background-color: #867264;
+}
+
+fieldset {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: solid 3px #403B38;
+  border-radius: 5px;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+select {
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+/*@ Botão--------------------------------------------------------------------*/
+
+button {
+  font-family: arial;
+  color: #F2E7AC !important;
+  font-size: 13px;
+  text-shadow: 2px 1px 0px #403B38;
+  box-shadow: 1px 1px 1px #F2E7AC;
+  padding: 8px 20px;
+  border-radius: 7px;
+  border: 3px solid #403B38;
+  background: #F2E7AC;
+  background: linear-gradient(to top, #F2E7AC, #403B38);
+}
+button:hover {
+  color: #F2E7AC !important;
+  background: #403B38;
+  background: linear-gradient(to top, #403B38, #F2E7AC);
+}
+
+
+/*$ Footer------------------------------------------------------------------- */
+
+.footer {
+    background-color: #F2E7AC;
+    font-style: italic;
+    font-size: 12px;
+    color: #403B38;
+    max-height: 100px;  
+    line-height: 0.7;
+    padding: 3px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    padding: 5px;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: #403B38 3px 3px 6px 0px inset, rgba(140, 123, 90, 0.5) -3px -3px 6px 1px inset;
+
+}
+
+.footer-content {
+    display: flex;
+    
+}
+
+.col-3 {
+    display: flex;
+    flex:2;
+    margin-left: 10px;
+}
+
+.col-4 {
+    display: flex;
+    flex: 2;
+    margin-left: 20px; 
+}
+
+.text-column {
+    flex: 2;
+    margin-right: 20px; /* Ajuste conforme necessário */
+    
+}
+
+.image-column {
+    flex: 1;
+}
+
+/* Adicione o seguinte bloco de estilo para personalizar o menu */
+.menu {
+    width: 15%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #F2E7AC;
+    background-color: #403B38;
+    padding: 5cap 20px 10px;
+    border-radius: 30px 0px 0px 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    box-shadow: #F2E7AC 3px 3px 6px 0px inset, rgba(242, 231, 172, 0.5) -3px -3px 6px 1px inset;
+    
+
+
+ul {
+    list-style: none; /* Remover marcadores de lista padrão */
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block; /* Exibir itens do menu em linha */
+    margin-right: 15px; /* Espaçamento entre os itens do menu */
+}
+
+a {
+    text-decoration: none; /* Remover sublinhado padrão dos links */
+    color: #F2E7AC; /* Cor do texto do link */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte do texto do link */
+    font-size: 18px; /* Tamanho da fonte do texto do link */
+}
+
+li:before { /* Adicione ícones antes das palavras */
+    content: ""; /* Código unicode para um ponto de bala */
+    color: #F2E7AC; /* Cor do ponto de bala */
+    margin-right: 5px; /* Espaçamento entre o ponto de bala e o texto */
+}
+
+}
+
+
+/*@ Rede_Social_Menu---------------------------------------------------------- */
+
+.master {
+    display: flex;
+    flex-direction: column;
+    gap: -0.5em;
+  
+  
+  .up {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+  }
+  
+  .down {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+  }
+  
+  .card1 {
+    width: 50px;
+    height: 50px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 90px 5px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .instagram {
+    margin-top: 1.0em;
+    margin-left: 0.1em;
+    fill: #cc39a4;
+  }
+  
+  .card2 {
+    width: 50px;
+    height: 50px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 90px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .twitter {
+    margin-top: 1.0em;
+    margin-left: -1.3em;
+    fill: #03a9f4;
+  }
+  
+  .card3 {
+    width: 50px;
+    height: 50px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 5px 90px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .github {
+    margin-top: -0.9em;
+    margin-left: 0.2em;
+  }
+  
+  .card4 {
+    width: 50px;
+    height: 50px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 90px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .discord {
+    margin-top: -0.9em;
+    margin-left: -1.2em;
+    fill: #8c9eff;
+  }
+  
+  .card1:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #cc39a4;
+    box-shadow: 1px 1px 0px #eeb1de, 2px 2px 0px #d365b6, 3px 3px 0px #d365b6,
+      4px 4px 0px #d365b6, 5px 5px 0px #d365b6;
+  }
+  
+  .card1:hover .instagram {
+    fill: white;
+  }
+  
+  .card2:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #03a9f4;
+    box-shadow: 1px 1px 0px #a1defa, 2px 2px 0px #41bef8, 3px 3px 0px #41bef8,
+      4px 4px 0px #41bef8, 5px 5px 0px #41bef8;
+  }
+  
+  .card2:hover .twitter {
+    fill: white;
+  }
+  
+  .card3:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: black;
+    box-shadow: 1px 1px 0px rgb(124, 123, 123), 2px 2px 0px #333, 3px 3px 0px #333,
+      4px 4px 0px #333, 5px 5px 0px #333;
+  }
+  
+  .card3:hover .github {
+    fill: white;
+  }
+  
+  .card4:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #8c9eff;
+    box-shadow: 1px 1px 0px #bdc2e2, 2px 2px 0px #9ca6e0, 3px 3px 0px #9ca6e0,
+      4px 4px 0px #9ca6e0, 5px 5px 0px #9ca6e0;
+  }
+  
+  .card4:hover .discord {
+    fill: white;
+  }
+  
+  .card1, .card2, .card3, .card4 {
+    box-shadow: 1px 1px 0px rgb(179, 175, 175), 2px 2px 0px rgb(179, 175, 175),
+      3px 3px 0px rgb(179, 175, 175), 4px 4px 0px rgb(179, 175, 175),
+      5px 5px 0px rgb(179, 175, 175);
+  } 
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* display = serve para definir como o elemento será exibido na página. Os valores mais comuns são: 
+block: o elemento é exibido como um bloco, ocupando toda a largura disponível e iniciando uma nova linha.
+inline: o elemento é exibido em linha, ao lado do elemento anterior, se houver espaço.
+inline-block: o elemento é exibido em linha, mas permite definir largura e altura.
+none: o elemento não é exibido na página. */
+
+/* Position = serve para definir como o elemento se comportará em relação aos outros elementos da página. Os valores mais comuns são:
+static: o elemento é exibido na posição normal, seguindo o fluxo da página.
+relative: o elemento é exibido na posição normal, mas pode ser deslocado com as propriedades top, bottom, left e right.
+absolute: o elemento é removido do fluxo da página e posicionado em relação ao elemento pai mais próximo que tenha position definido como relative, absolute ou fixed.
+fixed: o elemento é removido do fluxo da página e posicionado em relação à janela do navegador. O elemento permanece na mesma posição mesmo que a página seja rolada.
+sticky: o elemento é posicionado como relative até que a página seja rolada até um determinado ponto, quando passa a ser posicionado como fixed. */
+
+/* Overflow = serve para definir o que acontece quando o conteúdo de um elemento é maior que o espaço disponível. Os valores mais comuns são:
+visible: o conteúdo é exibido fora do elemento.
+hidden: o conteúdo é cortado.
+scroll: o conteúdo é cortado, mas é exibida uma barra de rolagem para que o usuário possa ver o conteúdo completo.
+auto: o navegador decide se o conteúdo será cortado ou se será exibida uma barra de rolagem. */
+
+/* box-sizing: border-box; /* serve para definir se a largura e altura de um elemento incluem o preenchimento, a borda ou nenhum dos dois. Os valores mais comuns são:
+content-box: a largura e altura definidos incluem apenas o conteúdo do elemento.
+border-box: a largura e altura definidos incluem o conteúdo, o preenchimento e a borda do elemento. */
+
+/* line-height = serve para definir a altura de uma linha de texto. O valor mais comum é:
+normal: o navegador define a altura da linha. */
+
+/* min-height = serve para definir a altura mínima de um elemento. O valor mais comum é:
+auto: o navegador define a altura mínima. */
+
+/* align-items = serve para definir como os itens de uma linha são alinhados verticalmente. Os valores mais comuns são:
+stretch: os itens são esticados para preencher a linha.
+flex-start: os itens são alinhados no topo da linha.
+flex-end: os itens são alinhados na base da linha.
+center: os itens são centralizados verticalmente na linha.
+baseline: os itens são alinhados de acordo com a linha de base. */
+
+/* align-content = serve para definir como as linhas são alinhadas verticalmente. Os valores mais comuns são:
+stretch: as linhas são esticadas para preencher o container.
+flex-start: as linhas são alinhadas no topo do container.
+flex-end: as linhas são alinhadas na base do container.
+center: as linhas são centralizadas verticalmente no container.
+space-between: as linhas são distribuídas uniformemente, com o primeiro item no topo e o último na base.
+space-around: as linhas são distribuídas uniformemente, com espaços iguais entre os itens. */
+
+/* align-self = serve para definir como um item é alinhado verticalmente em relação aos outros itens da linha. Os valores mais comuns são:
+auto: o item herda o valor definido para a propriedade align-items do container.
+stretch: o item é esticado para preencher a linha.
+flex-start: o item é alinhado no topo da linha.
+flex-end: o item é alinhado na base da linha.
+center: o item é centralizado verticalmente na linha.
+baseline: o item é alinhado de acordo com a linha de base. */
+
+/*vertical-align = serve para definir como um elemento é alinhado verticalmente em relação ao elemento pai. Os valores mais comuns são:
+baseline: o elemento é alinhado de acordo com a linha de base.
+sub: o elemento é alinhado como um subscrito.
+super: o elemento é alinhado como um sobrescrito.
+top: o elemento é alinhado no topo do elemento pai.
+text-top: o elemento é alinhado no topo da linha de texto.
+middle: o elemento é centralizado verticalmente.
+bottom: o elemento é alinhado na base do elemento pai.
+text-bottom: o elemento é alinhado na base da linha de texto. */
+
+/* max-width = serve para definir a largura máxima de um elemento. O valor mais comum é:
+none: o elemento não tem largura máxima. */
+
+/* white-space = serve para definir como o espaço em branco é tratado dentro de um elemento. Os valores mais comuns são:
+normal: o espaço em branco é tratado como um único espaço.
+nowrap: o espaço em branco é tratado como um único espaço. O texto não é quebrado em várias linhas.
+pre: o espaço em branco é respeitado. O texto é quebrado em várias linhas quando necessário. */
+
+/* z-index = serve para definir a ordem de empilhamento dos elementos. O valor mais comum é:
+auto: o elemento é posicionado de acordo com a ordem normal do fluxo da página.
+number: o elemento é posicionado de acordo com o valor definido. */
+
+/* content = serve para definir o conteúdo de um elemento. O valor mais comum é:
+normal: o conteúdo é exibido normalmente.
+none: o conteúdo não é exibido. */
+
+/* padding-bottom = serve para definir o espaçamento interno inferior de um elemento. O valor mais comum é:
+length: o espaçamento é definido em pixels, centímetros, milímetros ou outra unidade de medida.
+%: o espaçamento é definido em relação à largura do elemento pai.
+inherit: o espaçamento é herdado do elemento pai. */
+
+/* justify-content = serve para definir como os itens de uma linha são alinhados horizontalmente. Os valores mais comuns são:
+flex-start: os itens são alinhados no início da linha.
+flex-end: os itens são alinhados no final da linha.
+center: os itens são centralizados horizontalmente na linha.
+space-between: os itens são distribuídos uniformemente, com o primeiro item no início e o último no final.  */
+
+/* outline = serve para definir uma linha ao redor de um elemento. O valor mais comum é:
+none: o elemento não tem linha de contorno.
+length: a linha de contorno é definida com um valor em pixels, centímetros, milímetros ou outra unidade de medida.
+invert: a linha de contorno é definida com a cor oposta à cor de fundo do elemento.
+inherit: a linha de contorno é herdada do elemento pai. */
+
+ /*flex-direction = serve para definir a direção dos itens de uma linha. Os valores mais comuns são:
+row: os itens são exibidos da esquerda para a direita.
+row-reverse: os itens são exibidos da direita para a esquerda.
+column: os itens são exibidos de cima para baixo.
+column-reverse: os itens são exibidos de baixo para cima. */
+
+/* flex-wrap = serve para definir se os itens de uma linha devem ser exibidos em uma ou mais linhas. Os valores mais comuns são:
+nowrap: os itens são exibidos em uma única linha.
+wrap: os itens são exibidos em várias linhas.
+wrap-reverse: os itens são exibidos em várias linhas, mas em ordem inversa. */
+
+/* flex-flow = serve para definir a direção e o comportamento de quebra dos itens de uma linha. Os valores mais comuns são:
+row nowrap: os itens são exibidos da esquerda para a direita em uma única linha.
+row wrap: os itens são exibidos da esquerda para a direita em várias linhas.
+row-reverse nowrap: os itens são exibidos da direita para a esquerda em uma única linha.
+row-reverse wrap: os itens são exibidos da direita para a esquerda em várias linhas.
+column nowrap: os itens são exibidos de cima para baixo em uma única linha.
+column wrap: os itens são exibidos de cima para baixo em várias linhas.
+column-reverse nowrap: os itens são exibidos de baixo para cima em uma única linha.
+column-reverse wrap: os itens são exibidos de baixo para cima em várias linhas. */
+
+/* gap = serve para definir o espaçamento entre os itens de uma linha. Os valores mais comuns são:
+length: o espaçamento é definido em pixels, centímetros, milímetros ou outra unidade de medida.
+%: o espaçamento é definido em relação à largura do elemento pai. */
+
+/*li:before = serve para definir o conteúdo que será exibido antes de cada item de uma lista. O valor mais comum é:
+content: o conteúdo é definido como um texto ou um código unicode. */
